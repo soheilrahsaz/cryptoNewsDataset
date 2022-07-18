@@ -18,5 +18,6 @@ Database Diagram:
 
 ![image](https://user-images.githubusercontent.com/38767606/179568621-dfb1e10a-db7a-4a11-8e20-220747c1d616.png)
 
+News Example:
 
-
+![image](https://user-images.githubusercontent.com/38767606/179569521-e1cef289-49f8-4ede-9548-6d0937bb318f.png)
