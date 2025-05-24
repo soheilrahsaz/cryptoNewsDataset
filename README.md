@@ -1,34 +1,34 @@
 # Crypto News Dataset
 
-**174k Cryptocurrency news fetched from Cryptopanic.com**
-Perfect for Data Analysis projects.
+**216k Cryptocurrency news fetched from Cryptopanic.com**
 
-Using their Api you can only fetch 200 news for each filter.
+News are provided both in CSV (Excel-friendly) and MySQL dump
 
-News are provided both in Csv(Excel friendly) and MySQL dump
+These news are related to 660 highest ranked coins from coinmarketcap.com. News are labled with positive, negative, important and ... by users. Some news are related to 1 coins, some are related to multiple coins and some of them are not related to any specific coin.
 
-These news are related to 430 highest ranked coins from coinmarketcap.com. News are labled with positive, negative, important and ... by users. Some news are related to 1 coins, some are related to multiple coins and some of them are not related to any specific coin.
+**Update**
 
+Full description and real source URL are provided for news after 2021 with more than 3 votes. Full description for all news is comming soon!
 
 ---
-**News Count for high ranked coins:**
+**News Count for high-ranked coins:**
 | code | cnt | minDatetime | maxDatetime |
 | :--- | :--- | :--- | :--- |
-| BTC | 20576 | 2017-09-29 13:30:08 | 2025-01-07 18:32:36 |
-| ETH | 14173 | 2017-09-23 10:00:42 | 2025-01-07 17:21:25 |
-| SOL | 7234 | 2021-02-10 20:02:39 | 2025-01-07 18:24:57 |
-| XRP | 5691 | 2017-12-13 16:00:22 | 2025-01-07 17:39:29 |
-| ADA | 5448 | 2018-01-11 21:35:52 | 2025-01-07 17:03:30 |
-| DOGE | 4794 | 2018-02-18 10:00:05 | 2025-01-07 17:14:22 |
-| SHIB | 4650 | 2021-05-10 10:02:46 | 2025-01-07 17:14:22 |
-| USDT | 4474 | 2018-01-27 23:43:00 | 2025-01-07 17:36:18 |
-| MATIC | 2822 | 2019-05-22 19:06:25 | 2025-01-01 06:00:47 |
-| BNB | 2608 | 2018-11-27 17:17:02 | 2025-01-07 17:30:00 |
-| LINK | 2415 | 2020-02-28 13:00:30 | 2025-01-07 17:05:16 |
-| AVAX | 2347 | 2021-01-24 22:15:44 | 2025-01-07 15:34:00 |
-| TRX | 2310 | 2018-01-08 06:00:21 | 2025-01-07 17:30:00 |
-| DOT | 2139 | 2020-08-29 08:39:09 | 2025-01-06 17:21:39 |
-| UNI | 2075 | 2020-09-21 08:58:52 | 2025-01-07 15:30:00 |
+| BTC | 26065 | 2017-09-29 13:30:08 | 2025-05-24 07:07:14 |
+| ETH | 18097 | 2017-09-23 10:00:42 | 2025-05-24 06:27:01 |
+| SOL | 10564 | 2021-02-10 20:02:39 | 2025-05-24 04:35:18 |
+| XRP | 7718 | 2017-12-13 16:00:22 | 2025-05-24 07:38:26 |
+| ADA | 6482 | 2018-01-11 21:35:52 | 2025-05-23 18:07:00 |
+| DOGE | 6378 | 2018-02-18 10:00:05 | 2025-05-24 06:06:07 |
+| USDT | 6172 | 2018-01-27 23:43:00 | 2025-05-24 05:42:55 |
+| SHIB | 5750 | 2021-05-10 10:02:46 | 2025-05-23 21:16:42 |
+| BNB | 3415 | 2018-11-27 17:17:02 | 2025-05-24 01:00:34 |
+| LINK | 3034 | 2020-02-28 13:00:30 | 2025-05-23 18:07:00 |
+| MATIC | 3011 | 2019-05-22 19:06:25 | 2025-05-23 22:22:33 |
+| TRX | 2953 | 2018-01-08 06:00:21 | 2025-05-24 02:20:36 |
+| AVAX | 2848 | 2021-01-24 22:15:44 | 2025-05-23 21:35:18 |
+| USDC | 2608 | 2019-01-25 15:14:37 | 2025-05-23 21:27:00 |
+| UNI | 2512 | 2020-09-21 08:58:52 | 2025-05-23 23:00:12 |
 
 ```
 SELECT t3.code, COUNT(t1.id) AS cnt, MIN(t1.newsDatetime) AS minDatetime, MAX(t1.newsDatetime) AS maxDatetime
@@ -41,9 +41,10 @@ ORDER BY cnt DESC;
 
 ---
 Database Diagram:
-![CryptoNewsDataset](https://github.com/user-attachments/assets/a95aec3b-d420-489c-9472-6f4d36284366)
+![CryptoNewsDataset (1)](https://github.com/user-attachments/assets/eda48fcc-c944-429f-9416-f8ebc6309af5)
 
 ---
 News Example:
 
-![image](https://user-images.githubusercontent.com/38767606/179569521-e1cef289-49f8-4ede-9548-6d0937bb318f.png)
+![image](https://github.com/user-attachments/assets/94937ac1-3be7-4197-9fd1-96bce3dce647)
+
