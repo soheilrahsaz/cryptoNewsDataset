@@ -56,4 +56,5 @@ A Retrieval-Augmented Generation (RAG) application that integrates **Spring AI**
 This project uses the news and vote data from this dataset to generate embeddings, perform natural language queries, and rerank results based on user sentiment.
 
 [View the project on GitHub](https://github.com/soheilrahsaz/crypto-news-rag)
+
 [Read the blog post](https://medium.com/@soheilrahsaz.sr/building-a-rag-application-with-crypto-news-apache-cassandra-and-spring-ai-6115ad5ca75e)
