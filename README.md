@@ -40,11 +40,20 @@ ORDER BY cnt DESC;
 ```
 
 ---
-Database Diagram:
+### Database Diagram
 ![CryptoNewsDataset (1)](https://github.com/user-attachments/assets/eda48fcc-c944-429f-9416-f8ebc6309af5)
 
 ---
-News Example:
+### News Example
 
 ![image](https://github.com/user-attachments/assets/94937ac1-3be7-4197-9fd1-96bce3dce647)
 
+---
+### Projects Using This Dataset
+**Crypto AI Assist RAG with Cassandra**
+
+A Retrieval-Augmented Generation (RAG) application that integrates **Spring AI** and **Apache Cassandra**'s Vector Search to enable semantic search over crypto news.
+This project uses the news and vote data from this dataset to generate embeddings, perform natural language queries, and rerank results based on user sentiment.
+
+[View the project on GitHub](https://github.com/soheilrahsaz/crypto-news-rag)
+[Read the blog post](https://medium.com/@soheilrahsaz.sr/building-a-rag-application-with-crypto-news-apache-cassandra-and-spring-ai-6115ad5ca75e)
